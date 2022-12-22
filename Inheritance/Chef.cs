@@ -23,7 +23,7 @@ namespace Inheritance
             Console.WriteLine("Cooks Fried Rice.");
         }
 
-        public void MakeBiriyani()
+        public virtual void MakeSpecialDish()
         {
             Console.WriteLine("Cooks Biriyani.");
         }

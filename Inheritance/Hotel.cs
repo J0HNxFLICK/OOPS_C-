@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to abc hotel.\nEnter 1 to order Chicken.\nEnter 2 to order Noodles." +
-                "\nEnter 3 to order Fried Rice.\nEnter 4 to order Biriyani.\nEnter 5 to order french fries.\nEnter 6 to order Ratatouille.");
+                "\nEnter 3 to order Fried Rice.\nEnter 4 to order Special Dish of chef.\nEnter 5 to order french fries.\nEnter 6 to order Italian Chef special dish.");
 
             int userChoice = Convert.ToInt32(Console.ReadLine());
 
@@ -27,7 +27,7 @@
                     break;
 
                 case 4:
-                    chef.MakeBiriyani();
+                    chef.MakeSpecialDish();
                     break;
 
                 case 5:
@@ -35,7 +35,7 @@
                     break;
 
                 case 6:
-                    italianChef.MakeRatatouille();
+                    italianChef.MakeSpecialDish();
                     break;
 
                 default:

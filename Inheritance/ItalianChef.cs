@@ -13,7 +13,7 @@ namespace Inheritance
             Console.WriteLine("Cooks french Fries");
         }
 
-        public void MakeRatatouille()
+        public override void MakeSpecialDish()
         {
             Console.WriteLine("Cooks Ratatouille.");
         }
